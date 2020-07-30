@@ -1,0 +1,220 @@
+﻿.body {
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	/*background-image: linear-gradient( to right, rgba(113,18,3,0) 0%, rgba(113,18,3,0) 5%, rgba(113,18,3,1) 15%, rgba(113,18,3,1) 85%, rgba(113,18,3,0) 95%, rgba(113,18,3,0) 100% ),url('../Images/LogInPageBackground.png');
+	*/
+	background-color: rgba(0, 0, 0, 0.9);
+	background-position: left,center;
+	background-repeat: initial,repeat;
+	background-attachment: fixed,fixed;
+	margin: 0;
+}
+
+.btnDiv {
+	margin-top: 20px;
+	margin-left:20px;
+}
+
+.btnBorders{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #ffffff; 
+    width: 240px;
+	height: 200px;
+}
+
+.buttons {
+	position: relative;
+	display: inline-block;
+	padding: 15px 30px;
+	color: #2196f3;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	text-decoration: none;
+	font-size: 12px;
+	overflow: hidden;
+	border: none;
+	background: none;
+}
+
+.buttons:focus {
+	outline: 0;
+}
+
+.hoverOverMeBtn {
+	transition: 0.2s;
+}
+
+.scrollOverMeBtn {
+
+}
+
+.mouseTrailToggleBtn {
+
+}
+
+
+
+.button {
+	position: relative;
+	display: inline-block;
+	padding: 15px 30px;
+	color: #2196f3;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	text-decoration: none;
+	font-size: 12px;
+	overflow: hidden;
+	transition: 0.2s;
+}
+
+.hoverOverMeBtn:hover {
+	color: #255784;
+	background: #2196f3;
+	box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+	transition-delay: 1s;
+}
+
+.hoverOverMeBtn span {
+	position: absolute;
+	display: block;
+}
+
+.hoverOverMeBtn span:nth-child(1) {
+	top: 0;
+	left: -100%;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(90deg,transparent,#2196f3);
+}
+
+.hoverOverMeBtn:hover span:nth-child(1) {
+	left: 100%;
+	transition: 1s;
+}
+
+.hoverOverMeBtn span:nth-child(3) {
+	bottom: 0;
+	right: -100%;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(270deg,transparent,#2196f3);
+}
+
+.hoverOverMeBtn:hover span:nth-child(3) {
+	right: 100%;
+	transition: 1s;
+	transition-delay: 0.5s;
+}
+
+.hoverOverMeBtn span:nth-child(2) {
+	top: -100%;
+	right: 0;
+	width: 2px;
+	height: 100%;
+	background: linear-gradient(180deg,transparent,#2196f3);
+}
+
+.hoverOverMeBtn:hover span:nth-child(2) {
+	top: 100%;
+	transition: 1s;
+	transition-delay: 0.25s;
+}
+
+.hoverOverMeBtn span:nth-child(4) {
+	bottom: -100%;
+	left: 0;
+	width: 2px;
+	height: 100%;
+	background: linear-gradient(360deg,transparent,#2196f3);
+}
+
+.hoverOverMeBtn:hover span:nth-child(4) {
+	bottom: 100%;
+	transition: 1s;
+	transition-delay: 0.75s;
+}
+
+/*
+a {
+	position: relative;
+	display: inline-block;
+	padding: 15px 30px;
+	color: #2196f3;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	text-decoration: none;
+	font-size: 12px;
+	overflow: hidden;
+	transition: 0.2s;
+}
+
+	a:hover {
+		color: #255784;
+		background: #2196f3;
+		box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+		transition-delay: 1s;
+	}
+
+	a span {
+		position: absolute;
+		display: block;
+	}
+
+	a span:nth-child(1) {
+		top: 0;
+		left: -100%;
+		width: 100%;
+		height: 2px;
+		background: linear-gradient(90deg,transparent,#2196f3);
+	}
+
+	a:hover span:nth-child(1) {
+		left: 100%;
+		transition: 1s;
+	}
+
+	a span:nth-child(3) {
+		bottom: 0;
+		right: -100%;
+		width: 100%;
+		height: 2px;
+		background: linear-gradient(270deg,transparent,#2196f3);
+	}
+
+	a:hover span:nth-child(3) {
+		right: 100%;
+		transition: 1s;
+		transition-delay: 0.5s;
+	}
+
+	a span:nth-child(2) {
+		top: -100%;
+		right: 0;
+		width: 2px;
+		height: 100%;
+		background: linear-gradient(180deg,transparent,#2196f3);
+	}
+
+	a:hover span:nth-child(2) {
+		top: 100%;
+		transition: 1s;
+		transition-delay: 0.25s;
+	}
+
+	a span:nth-child(4) {
+		bottom: -100%;
+		left: 0;
+		width: 2px;
+		height: 100%;
+		background: linear-gradient(360deg,transparent,#2196f3);
+	}
+
+	a:hover span:nth-child(4) {
+		bottom: 100%;
+		transition: 1s;
+		transition-delay: 0.75s;
+	}
+	*/

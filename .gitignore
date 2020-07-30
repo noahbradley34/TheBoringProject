@@ -1,2 +1,7 @@
 
 *.lock
+.vs/TheBoringProject/v16/.suo
+*.ide
+*.cache
+*.dll
+*.pdb
